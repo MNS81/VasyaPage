@@ -7,7 +7,7 @@ class VasyaPage
 
     public int GetDaysCount()
     {
-        int count = 0;
+        int count = -1;
         var months = new string[] { "августа", "апреля", "декабря", "июля", "июня", "мая", "марта", "ноября", "октября", "сентября", "декабря" };
         foreach (string mm in months)
             for (int dd = 2; dd < 31; dd += 2)
